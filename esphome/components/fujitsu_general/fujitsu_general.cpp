@@ -22,7 +22,7 @@ const uint8_t FUJITSU_GENERAL_MESSAGE_TYPE_BYTE = 5;
 
 // State message - temp & fan etc.
 const uint8_t FUJITSU_GENERAL_STATE_MESSAGE_LENGTH = 16;
-const uint8_t FUJITSU_GENERAL_MESSAGE_TYPE_STATE = 0xFE;
+const uint8_t FUJITSU_GENERAL_MESSAGE_TYPE_STATE = 0xFC;
 
 // Util messages - off & eco etc.
 const uint8_t FUJITSU_GENERAL_UTIL_MESSAGE_LENGTH = 7;
